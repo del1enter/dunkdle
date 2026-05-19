@@ -1,0 +1,2173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0c10">
+<meta name="color-scheme" content="dark">
+
+<title>Dunkdle — Unlimited NBA Player Guessing Game (Poeltl Unlimited)</title>
+<meta name="description" content="Play unlimited rounds of the NBA player guessing game. Free, no signup, mobile-friendly. New mystery player every round — guess by team, position, height, age, jersey, and draft. The unlimited alternative to Poeltl.">
+<meta name="keywords" content="poeltl unlimited, nba player guessing game, unlimited poeltl, nba wordle unlimited, basketball guessing game, guess the nba player">
+<meta name="author" content="Dunkdle">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://www.dunkdle.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dunkdle">
+<meta property="og:title" content="Dunkdle — Unlimited NBA Player Guessing Game">
+<meta property="og:description" content="Play unlimited rounds of the NBA player guessing game. Free, no signup. A new mystery player every round.">
+<meta property="og:url" content="https://www.dunkdle.com/">
+<meta property="og:image" content="https://www.dunkdle.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dunkdle game board showing colour-coded NBA player guesses">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dunkdle — Unlimited NBA Player Guessing Game">
+<meta name="twitter:description" content="Play unlimited rounds of the NBA player guessing game. Free, no signup.">
+<meta name="twitter:image" content="https://www.dunkdle.com/og-image.png">
+
+<meta name="google-site-verification" content="REPLACE_WITH_YOUR_TOKEN">
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='44' fill='%23ff6b35'/%3E%3Cpath d='M50 6v88M6 50h88M18 18c20 8 44 8 64 0M18 82c20-8 44-8 64 0' stroke='%230a0c10' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="manifest" href="/manifest.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.nba.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- AdSense (replace publisher ID once approved) -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+<meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.dunkdle.com/#website",
+      "url": "https://www.dunkdle.com/",
+      "name": "Dunkdle",
+      "description": "Unlimited NBA player guessing game.",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://www.dunkdle.com/#org" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dunkdle.com/#org",
+      "name": "Dunkdle",
+      "url": "https://www.dunkdle.com/",
+      "logo": "https://www.dunkdle.com/logo-512.png"
+    },
+    {
+      "@type": "Game",
+      "@id": "https://www.dunkdle.com/#game",
+      "name": "Dunkdle — Unlimited NBA Player Guessing Game",
+      "alternateName": ["Poeltl Unlimited", "NBA Player Guessing Game Unlimited"],
+      "url": "https://www.dunkdle.com/",
+      "description": "Free unlimited browser game inspired by Poeltl. Guess the mystery NBA player using colour-coded clues for team, conference, position, height, age, jersey number, draft year, and draft pick.",
+      "genre": ["Puzzle", "Trivia", "Sports"],
+      "playMode": "SinglePlayer",
+      "gamePlatform": ["Web browser", "Mobile web"],
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "image": "https://www.dunkdle.com/og-image.png",
+      "author": { "@id": "https://www.dunkdle.com/#org" },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.dunkdle.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Dunkdle the same as Poeltl Unlimited?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Dunkdle is an unlimited-mode NBA player guessing game inspired by Poeltl. The official Poeltl game is once per day; Dunkdle gives you a new mystery player every round, with no daily cap." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you play Dunkdle?",
+          "acceptedAnswer": { "@type": "Answer", "text": "You have 8 guesses to identify a mystery NBA player. Each guess reveals colour-coded feedback: green for an exact match, yellow for close, grey for no match. Arrows show whether the mystery player is taller, older, or has a higher jersey number." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Dunkdle free?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Dunkdle is completely free, runs in your browser, and requires no signup." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play Dunkdle on mobile?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Dunkdle is mobile-first and works on any phone or tablet browser." }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Dunkdle different from the official Poeltl game?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Three key differences: unlimited rounds instead of one per day, full session stats with streak tracking, and colour-blind-friendly icons in every cell." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+/* =====================================================================
+   DESIGN TOKENS
+   ===================================================================== */
+:root {
+  --bg: #0a0c10;
+  --bg-grad: radial-gradient(ellipse 80% 60% at 50% 0%, #1a1f2e 0%, #0a0c10 60%);
+  --surface: #14171f;
+  --surface-2: #1c2030;
+  --surface-3: #252a3d;
+  --border: #2a3045;
+  --border-strong: #3a4260;
+
+  --text: #e8ecf4;
+  --text-muted: #9aa3b8;
+  --text-dim: #6b7286;
+
+  --primary: #ff6b35;
+  --primary-hover: #ff8253;
+  --primary-glow: rgba(255,107,53,.35);
+  --accent: #4a9eff;
+
+  --green: #14b870;
+  --green-deep: #0e8e54;
+  --green-bg: rgba(20,184,112,.18);
+  --yellow: #f5b800;
+  --yellow-deep: #c79500;
+  --yellow-bg: rgba(245,184,0,.18);
+  --grey: #3a4260;
+  --grey-bg: rgba(58,66,96,.45);
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.4);
+  --shadow-md: 0 6px 18px rgba(0,0,0,.5);
+  --shadow-lg: 0 18px 48px rgba(0,0,0,.6);
+  --shadow-glow: 0 0 24px var(--primary-glow);
+
+  --font-display: 'Bebas Neue', system-ui, sans-serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  --maxw: 1180px;
+
+  --cell-h: 44px;
+  --cell-gap: 4px;
+}
+
+/* =====================================================================
+   RESET
+   ===================================================================== */
+*,*::before,*::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--bg);
+  background-image: var(--bg-grad);
+  background-attachment: fixed;
+  color: var(--text);
+  font-weight: 400;
+  line-height: 1.5;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding-bottom: env(safe-area-inset-bottom);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+input { font: inherit; color: inherit; }
+ul { list-style: none; padding: 0; margin: 0; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { display: block; max-width: 100%; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0;
+  margin: -1px; overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
+/* =====================================================================
+   LAYOUT — HEADER
+   ===================================================================== */
+header.site-header {
+  position: sticky; top: 0; z-index: 30;
+  background: rgba(10,12,16,.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  padding: env(safe-area-inset-top) 0 0;
+}
+.header-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.brand {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  line-height: 1;
+}
+.brand-mark {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--primary);
+  position: relative;
+  box-shadow: 0 0 16px var(--primary-glow);
+  flex-shrink: 0;
+}
+.brand-mark::before, .brand-mark::after {
+  content:''; position: absolute; inset: 0; border-radius: 50%;
+  border: 2px solid var(--bg);
+  pointer-events: none;
+}
+.brand-mark::before {
+  background:
+    linear-gradient(var(--bg), var(--bg)) center/2px 100% no-repeat,
+    linear-gradient(var(--bg), var(--bg)) center/100% 2px no-repeat;
+}
+.brand-tag {
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-left: 4px;
+  padding: 3px 7px;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  align-self: center;
+}
+.header-actions { display: flex; gap: 6px; }
+.icon-btn {
+  width: 40px; height: 40px;
+  display: inline-grid; place-items: center;
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  transition: background .15s, color .15s, transform .15s;
+}
+.icon-btn:hover, .icon-btn:focus-visible {
+  background: var(--surface-2);
+  color: var(--text);
+  outline: none;
+}
+.icon-btn:focus-visible { box-shadow: 0 0 0 2px var(--accent); }
+.icon-btn svg { width: 20px; height: 20px; }
+
+/* =====================================================================
+   LAYOUT — MAIN
+   ===================================================================== */
+main {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 20px 16px 100px;
+}
+.game-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+@media (min-width: 1024px) {
+  .game-layout {
+    grid-template-columns: minmax(0, 1fr) 320px;
+    align-items: start;
+  }
+}
+
+/* =====================================================================
+   SILHOUETTE CARD
+   ===================================================================== */
+.silhouette-card {
+  background: linear-gradient(180deg, var(--surface) 0%, var(--surface-2) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 16px;
+  align-items: center;
+  box-shadow: var(--shadow-md);
+}
+@media (min-width: 640px) {
+  .silhouette-card {
+    grid-template-columns: 120px 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+}
+.silhouette {
+  width: 80px; height: 80px;
+  border-radius: var(--radius-md);
+  background: var(--surface-3);
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+@media (min-width: 640px) {
+  .silhouette { width: 120px; height: 120px; }
+}
+.silhouette img {
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center top;
+  filter: blur(var(--blur, 24px)) saturate(.4) brightness(.5);
+  transition: filter .5s ease;
+}
+.silhouette.revealed img {
+  filter: blur(0) saturate(1) brightness(1);
+}
+.silhouette-meta { min-width: 0; }
+.silhouette-label {
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  color: var(--text-dim);
+  margin: 0 0 4px;
+}
+.silhouette-title {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 5vw, 32px);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  margin: 0 0 10px;
+  color: var(--text);
+}
+.silhouette-sub {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+.progress-track {
+  display: flex; gap: 4px; margin-top: 8px;
+}
+.progress-pip {
+  flex: 1; height: 6px;
+  border-radius: 999px;
+  background: var(--surface-3);
+  transition: background .25s;
+}
+.progress-pip.used { background: var(--primary); }
+.progress-pip.win { background: var(--green); }
+.progress-pip.loss { background: var(--grey); }
+
+/* =====================================================================
+   AUTOCOMPLETE
+   ===================================================================== */
+.autocomplete {
+  position: relative;
+  margin-top: 18px;
+}
+.search-input {
+  width: 100%;
+  height: 52px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0 52px 0 18px;
+  font-size: 16px; /* >=16px stops iOS zoom on focus */
+  font-weight: 500;
+  color: var(--text);
+  transition: border-color .15s, box-shadow .15s;
+}
+.search-input::placeholder { color: var(--text-dim); }
+.search-input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+.search-input:disabled { opacity: .5; cursor: not-allowed; }
+.search-submit {
+  position: absolute;
+  right: 6px; top: 50%; transform: translateY(-50%);
+  width: 40px; height: 40px;
+  border-radius: var(--radius-sm);
+  background: var(--primary);
+  color: #fff;
+  display: grid; place-items: center;
+  transition: background .15s, transform .15s;
+}
+.search-submit:hover:not(:disabled) { background: var(--primary-hover); }
+.search-submit:disabled { background: var(--surface-3); color: var(--text-dim); cursor: not-allowed; }
+.search-submit svg { width: 18px; height: 18px; }
+.suggestions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0; right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  max-height: 280px;
+  overflow-y: auto;
+  z-index: 20;
+  display: none;
+}
+.suggestions[data-open="true"] { display: block; }
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  min-height: 48px;
+  transition: background .1s;
+}
+.suggestion:last-child { border-bottom: 0; }
+.suggestion:hover,
+.suggestion[aria-selected="true"] {
+  background: var(--surface-2);
+}
+.suggestion[data-disabled="true"] {
+  opacity: .4;
+  cursor: not-allowed;
+}
+.suggestion-avatar {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--surface-3);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.suggestion-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.suggestion-name {
+  flex: 1; min-width: 0;
+  font-weight: 600;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.suggestion-team {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  padding: 3px 6px;
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+}
+
+/* =====================================================================
+   BOARD
+   ===================================================================== */
+.board {
+  margin-top: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 12px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.board-scroll { min-width: 100%; }
+.board-header,
+.guess-row,
+.empty-row {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(40px, 1fr));
+  gap: var(--cell-gap);
+}
+@media (max-width: 380px) {
+  .board { padding: 8px; }
+  .board-scroll {
+    min-width: 360px;
+  }
+  :root { --cell-h: 40px; }
+}
+.board-header {
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.col-head {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  line-height: 1.1;
+  padding: 4px 2px;
+}
+@media (min-width: 640px) {
+  .col-head { font-size: 13px; }
+}
+.guess-rows { display: flex; flex-direction: column; gap: var(--cell-gap); }
+.guess-row {
+  position: relative;
+}
+.guess-row.is-latest::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border: 2px solid var(--primary);
+  border-radius: var(--radius-md);
+  pointer-events: none;
+  opacity: 0;
+  animation: latestRowGlow 1.2s ease-out forwards;
+}
+@keyframes latestRowGlow {
+  0% { opacity: 1; transform: scale(1.02); }
+  100% { opacity: 0; transform: scale(1); }
+}
+.cell {
+  height: var(--cell-h);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: rotateX(90deg);
+  transform-origin: 50% 50%;
+  perspective: 600px;
+  animation: cellReveal .55s cubic-bezier(.5,1.6,.4,1) forwards;
+  animation-delay: var(--delay, 0ms);
+}
+@keyframes cellReveal {
+  0%   { opacity: 0; transform: rotateX(90deg); }
+  60%  { opacity: 1; transform: rotateX(-15deg); }
+  100% { opacity: 1; transform: rotateX(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cell { animation: cellFade .15s ease forwards; transform: none; }
+  @keyframes cellFade { from { opacity: 0; } to { opacity: 1; } }
+  .guess-row.is-latest::before { animation: none; }
+}
+@media (min-width: 640px) {
+  .cell { font-size: 16px; }
+}
+.cell[data-state="green"] {
+  background: var(--green-bg);
+  border-color: var(--green);
+  color: var(--green);
+}
+.cell[data-state="yellow"] {
+  background: var(--yellow-bg);
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+.cell[data-state="grey"] {
+  background: var(--grey-bg);
+  border-color: var(--border);
+  color: var(--text-muted);
+}
+.cell-value { font-weight: 600; line-height: 1; }
+.cell-arrow {
+  font-size: 10px;
+  opacity: .9;
+  margin-top: 2px;
+  line-height: 1;
+}
+.cell-icon {
+  position: absolute;
+  top: 2px; right: 3px;
+  font-size: 9px;
+  font-family: var(--font-body);
+  font-weight: 800;
+  opacity: .7;
+}
+.cell-icon[data-icon="check"]::before { content: '✓'; }
+.cell-icon[data-icon="close"]::before { content: '✕'; }
+.cell-icon[data-icon="partial"]::before { content: '~'; }
+.cell.empty {
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  opacity: .4;
+  animation: none;
+  transform: none;
+}
+
+/* =====================================================================
+   RAIL / ADS
+   ===================================================================== */
+.rail { display: flex; flex-direction: column; gap: 16px; }
+.rail .ad-slot { display: none; }
+@media (min-width: 1024px) {
+  .rail .ad-slot { display: block; }
+}
+.ad-slot {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  min-height: 250px;
+  display: grid;
+  place-items: center;
+  color: var(--text-dim);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+}
+.ad-slot--rail { min-height: 600px; }
+.ad-slot--footer { margin-top: 24px; min-height: 100px; }
+.ad-slot::before {
+  content: 'advertisement';
+  position: absolute;
+  top: 6px; left: 8px;
+  font-size: 9px;
+  color: var(--text-dim);
+  letter-spacing: 0.18em;
+}
+.ad-anchor {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  padding: 4px;
+  padding-bottom: calc(4px + env(safe-area-inset-bottom));
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+}
+.ad-anchor__close {
+  position: absolute;
+  top: 2px; right: 2px;
+  width: 22px; height: 22px;
+  font-size: 14px;
+  color: var(--text-muted);
+  border-radius: 50%;
+  background: var(--surface-2);
+  display: grid; place-items: center;
+}
+@media (min-width: 768px) { .ad-anchor { display: none; } }
+.ad-anchor.dismissed { display: none; }
+body.with-anchor-ad { padding-bottom: 60px; }
+@media (min-width: 768px) { body.with-anchor-ad { padding-bottom: 0; } }
+
+/* =====================================================================
+   BUTTONS
+   ===================================================================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  transition: background .15s, transform .15s, box-shadow .15s;
+  min-height: 44px;
+}
+.btn:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--primary-glow); }
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: var(--shadow-glow);
+}
+.btn-primary:hover { background: var(--primary-hover); }
+.btn-primary:active { transform: translateY(1px); }
+.btn-secondary {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border-strong);
+}
+.btn-secondary:hover { background: var(--surface-3); }
+.btn-ghost { color: var(--text-muted); }
+.btn-ghost:hover { color: var(--text); }
+
+/* =====================================================================
+   MODALS
+   ===================================================================== */
+dialog {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--text);
+  max-width: min(560px, calc(100vw - 32px));
+  max-height: 90vh;
+  margin: auto;
+}
+dialog::backdrop {
+  background: rgba(5,7,10,.7);
+  backdrop-filter: blur(4px);
+}
+.modal-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 24px;
+  box-shadow: var(--shadow-lg);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.modal-close {
+  position: absolute;
+  top: 12px; right: 12px;
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  display: grid; place-items: center;
+  font-size: 18px;
+}
+.modal-close:hover { background: var(--surface-3); color: var(--text); }
+.modal-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+  margin: 0 36px 8px 0;
+}
+.modal-sub { color: var(--text-muted); margin: 0 0 20px; }
+.modal-section { margin-bottom: 18px; }
+.modal-section h4 {
+  font-family: var(--font-display);
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+  margin: 0 0 8px;
+}
+.modal-section p { margin: 0 0 8px; color: var(--text-muted); font-size: 14px; }
+.example-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  margin: 8px 0;
+}
+.example-cell {
+  height: 38px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+.example-cell[data-state="green"] { background: var(--green-bg); border-color: var(--green); color: var(--green); }
+.example-cell[data-state="yellow"] { background: var(--yellow-bg); border-color: var(--yellow); color: var(--yellow); }
+.example-cell[data-state="grey"] { background: var(--grey-bg); color: var(--text-muted); }
+.example-caption { color: var(--text-muted); font-size: 13px; margin-top: 4px; }
+
+/* End-of-round modal */
+.reveal-card {
+  text-align: center;
+}
+.reveal-photo {
+  width: 140px; height: 140px;
+  border-radius: var(--radius-lg);
+  margin: 0 auto 14px;
+  overflow: hidden;
+  background: var(--surface-2);
+}
+.reveal-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.reveal-name {
+  font-family: var(--font-display);
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  margin: 0 0 4px;
+}
+.reveal-team {
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0 0 16px;
+  font-size: 13px;
+}
+.reveal-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 0 0 18px;
+  text-align: left;
+}
+.reveal-stat {
+  background: var(--surface-2);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+}
+.reveal-stat-label {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.reveal-stat-value { font-weight: 700; font-size: 14px; }
+.reveal-outcome {
+  font-family: var(--font-display);
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  margin: 0 0 4px;
+}
+.reveal-outcome.win { color: var(--green); }
+.reveal-outcome.loss { color: var(--primary); }
+.reveal-actions {
+  display: flex; flex-direction: column; gap: 8px;
+  margin-top: 16px;
+}
+@media (min-width: 480px) {
+  .reveal-actions { flex-direction: row; justify-content: center; }
+  .reveal-actions .btn { flex: 1; }
+}
+.affiliate-link {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.affiliate-link a { color: var(--text-muted); text-decoration: underline; }
+
+/* Stats */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.stat-card {
+  background: var(--surface-2);
+  border-radius: var(--radius-sm);
+  padding: 10px 6px;
+  text-align: center;
+}
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 26px;
+  line-height: 1;
+  color: var(--text);
+}
+.stat-label {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+.distribution { margin-top: 12px; }
+.distribution h4 {
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin: 0 0 8px;
+}
+.dist-row {
+  display: grid;
+  grid-template-columns: 20px 1fr 32px;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+.dist-bar {
+  height: 18px;
+  background: var(--surface-3);
+  border-radius: 4px;
+  position: relative;
+}
+.dist-fill {
+  height: 100%;
+  background: var(--primary);
+  border-radius: 4px;
+  min-width: 6px;
+  transition: width .4s ease;
+}
+.dist-fill.win { background: var(--green); }
+
+/* Email modal */
+.email-form {
+  display: flex; flex-direction: column; gap: 10px;
+  margin-top: 12px;
+}
+.email-input {
+  height: 48px;
+  background: var(--surface-2);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0 14px;
+  font-size: 16px;
+  color: var(--text);
+}
+.email-input:focus { outline: none; border-color: var(--primary); }
+
+/* =====================================================================
+   TOASTS
+   ===================================================================== */
+#toast-container {
+  position: fixed;
+  top: calc(env(safe-area-inset-top) + 76px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: none;
+  width: min(420px, calc(100vw - 32px));
+}
+.toast {
+  pointer-events: auto;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  animation: toastIn .25s ease-out;
+}
+.toast.win { border-color: var(--green); }
+.toast.loss { border-color: var(--primary); }
+.toast.info { border-color: var(--accent); }
+.toast a {
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+@keyframes toastIn {
+  from { opacity: 0; transform: translateY(-12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.toast.leaving { animation: toastOut .2s ease-in forwards; }
+@keyframes toastOut {
+  to { opacity: 0; transform: translateY(-12px); }
+}
+
+/* =====================================================================
+   FOOTER
+   ===================================================================== */
+footer.site-footer {
+  max-width: var(--maxw);
+  margin: 40px auto 0;
+  padding: 24px 16px 30px;
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 13px;
+  text-align: center;
+}
+footer.site-footer p { margin: 4px 0; }
+footer.site-footer a { color: var(--text-muted); }
+
+/* =====================================================================
+   CONFETTI
+   ===================================================================== */
+.confetti {
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: 70;
+  overflow: hidden;
+}
+.confetti-piece {
+  position: absolute;
+  width: 8px; height: 14px;
+  top: -20px;
+  animation: confettiFall var(--dur, 2.4s) linear forwards;
+  animation-delay: var(--delay, 0s);
+  transform-origin: center;
+}
+@keyframes confettiFall {
+  0%   { transform: translate3d(0,-20px,0) rotate(0); opacity: 1; }
+  100% { transform: translate3d(var(--dx, 80px), 110vh, 0) rotate(720deg); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .confetti { display: none; } }
+</style>
+</head>
+<body>
+
+<a href="#main" class="sr-only">Skip to game</a>
+
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <h1 class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      DUNKDLE
+      <span class="brand-tag">Unlimited</span>
+    </h1>
+    <nav class="header-actions" aria-label="Site controls">
+      <button class="icon-btn" id="howToBtn" aria-label="How to play">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 2-2.5 2.5-2.5 4"/><circle cx="12" cy="17" r=".5" fill="currentColor"/></svg>
+      </button>
+      <button class="icon-btn" id="statsBtn" aria-label="Session stats">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="game-layout">
+    <section class="game" aria-label="Game">
+      <div class="silhouette-card">
+        <div class="silhouette" id="silhouette" aria-hidden="true">
+          <img id="silhouetteImg" src="" alt="" decoding="async">
+        </div>
+        <div class="silhouette-meta">
+          <p class="silhouette-label">Mystery Player</p>
+          <p class="silhouette-title" id="silhouetteTitle">Guess the player</p>
+          <p class="silhouette-sub" id="silhouetteSub">Image sharpens with every wrong guess.</p>
+          <div class="progress-track" id="progressTrack" aria-label="Guesses remaining">
+            <div class="progress-pip"></div><div class="progress-pip"></div>
+            <div class="progress-pip"></div><div class="progress-pip"></div>
+            <div class="progress-pip"></div><div class="progress-pip"></div>
+            <div class="progress-pip"></div><div class="progress-pip"></div>
+          </div>
+        </div>
+      </div>
+
+      <form class="autocomplete" id="guessForm" autocomplete="off" role="search">
+        <input
+          type="text"
+          id="guessInput"
+          class="search-input"
+          placeholder="Type a player's name…"
+          aria-label="Guess an NBA player"
+          aria-autocomplete="list"
+          aria-controls="suggestions"
+          aria-expanded="false"
+          spellcheck="false"
+          autocapitalize="words"
+        >
+        <button type="submit" class="search-submit" id="guessSubmit" disabled aria-label="Submit guess">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <ul class="suggestions" id="suggestions" role="listbox" aria-label="Suggestions"></ul>
+      </form>
+
+      <div class="board" id="board" role="grid" aria-label="Guess board">
+        <div class="board-scroll">
+          <div class="board-header" role="row">
+            <div role="columnheader" class="col-head">Team</div>
+            <div role="columnheader" class="col-head">Conf</div>
+            <div role="columnheader" class="col-head">Pos</div>
+            <div role="columnheader" class="col-head">Height</div>
+            <div role="columnheader" class="col-head">Age</div>
+            <div role="columnheader" class="col-head">Jersey</div>
+            <div role="columnheader" class="col-head">Draft Yr</div>
+            <div role="columnheader" class="col-head">Pick</div>
+          </div>
+          <div class="guess-rows" id="guessRows"></div>
+        </div>
+      </div>
+
+      <div class="ad-slot ad-slot--footer" id="ad-footer" aria-hidden="true">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-slot="3333333333"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
+    </section>
+
+    <aside class="rail" aria-label="Sidebar">
+      <div class="ad-slot ad-slot--rail" id="ad-rail" aria-hidden="true">
+        <ins class="adsbygoogle"
+             style="display:block;width:300px;height:600px"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-slot="4444444444"
+             data-ad-format="vertical"></ins>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<aside class="ad-anchor" id="adAnchor" role="complementary" aria-label="Advertisement">
+  <button class="ad-anchor__close" id="adAnchorClose" aria-label="Close ad">×</button>
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:320px;height:50px"
+       data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+       data-ad-slot="2222222222"
+       data-ad-format="horizontal"
+       data-full-width-responsive="false"></ins>
+</aside>
+
+<!-- ===== HOW TO PLAY MODAL ===== -->
+<dialog id="howToModal" aria-labelledby="howToTitle">
+  <div class="modal-card">
+    <button class="modal-close" data-close-modal aria-label="Close">×</button>
+    <h2 class="modal-title" id="howToTitle">How to play</h2>
+    <p class="modal-sub">Guess the mystery NBA player in 8 tries.</p>
+
+    <div class="modal-section">
+      <h4>The clues</h4>
+      <p>Each guess reveals colour-coded feedback across eight columns: <strong>Team, Conference, Position, Height, Age, Jersey, Draft Year, Draft Pick</strong>.</p>
+    </div>
+
+    <div class="modal-section">
+      <h4>Reading a row</h4>
+      <div class="example-row">
+        <div class="example-cell" data-state="green">LAL<span class="cell-icon" data-icon="check"></span></div>
+        <div class="example-cell" data-state="yellow">SF<span class="cell-icon" data-icon="partial"></span></div>
+        <div class="example-cell" data-state="grey">C<span class="cell-icon" data-icon="close"></span></div>
+      </div>
+      <p class="example-caption"><strong style="color:var(--green)">Green</strong> = exact match. <strong style="color:var(--yellow)">Yellow</strong> = close (the team was on the player's career history, or position/number is within range). <strong style="color:var(--text-muted)">Grey</strong> = no match.</p>
+    </div>
+
+    <div class="modal-section">
+      <h4>Arrows</h4>
+      <p>On <strong>height, age, jersey number, draft year, and draft pick</strong>, an arrow tells you which way to move. ↑ means the answer is higher; ↓ means lower.</p>
+    </div>
+
+    <div class="modal-section">
+      <h4>Proximity (Yellow rules)</h4>
+      <p>Height: within ±2 inches · Age: ±2 years · Jersey: ±2 · Draft Year: ±2 years · Draft Pick: ±3 picks · Position: at least one position-letter overlap (G/F counts).</p>
+    </div>
+
+    <div class="modal-section">
+      <h4>Silhouette</h4>
+      <p>A blurred photo of the mystery player sits at the top. It sharpens with every wrong guess. By guess 6 it's almost crisp.</p>
+    </div>
+
+    <div class="modal-section">
+      <h4>Unlimited mode</h4>
+      <p>No daily cap. Click <strong>New Player</strong> after a round ends and you'll start fresh against a different mystery player.</p>
+    </div>
+
+    <button class="btn btn-primary" data-close-modal style="width:100%;margin-top:8px">Got it</button>
+  </div>
+</dialog>
+
+<!-- ===== STATS MODAL ===== -->
+<dialog id="statsModal" aria-labelledby="statsTitle">
+  <div class="modal-card">
+    <button class="modal-close" data-close-modal aria-label="Close">×</button>
+    <h2 class="modal-title" id="statsTitle">Session Stats</h2>
+    <p class="modal-sub">Tracked locally in your browser.</p>
+
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-value" id="stat-played">0</div><div class="stat-label">Played</div></div>
+      <div class="stat-card"><div class="stat-value" id="stat-winrate">0</div><div class="stat-label">Win %</div></div>
+      <div class="stat-card"><div class="stat-value" id="stat-streak">0</div><div class="stat-label">Streak</div></div>
+      <div class="stat-card"><div class="stat-value" id="stat-best">0</div><div class="stat-label">Best</div></div>
+    </div>
+
+    <div class="stat-card" style="text-align:left;padding:12px;margin-bottom:14px">
+      <div class="stat-label" style="text-align:left;margin-bottom:2px">Avg guesses to win</div>
+      <div class="stat-value" id="stat-avg" style="font-size:22px">—</div>
+    </div>
+
+    <div class="distribution">
+      <h4>Guess Distribution</h4>
+      <div id="distribution"></div>
+    </div>
+  </div>
+</dialog>
+
+<!-- ===== END-OF-ROUND REVEAL ===== -->
+<dialog id="revealModal" aria-labelledby="revealOutcome">
+  <div class="modal-card reveal-card">
+    <button class="modal-close" data-close-modal aria-label="Close">×</button>
+    <p class="reveal-outcome" id="revealOutcome">Solved!</p>
+    <div class="reveal-photo">
+      <img id="revealPhoto" src="" alt="">
+    </div>
+    <h2 class="reveal-name" id="revealName">Player Name</h2>
+    <p class="reveal-team" id="revealTeam">TEAM</p>
+    <div class="reveal-stats" id="revealStats"></div>
+    <div class="reveal-actions">
+      <button class="btn btn-secondary" id="shareBtn">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+        Share
+      </button>
+      <button class="btn btn-primary" id="newRoundBtn">
+        New Player
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+    <p class="affiliate-link" id="affiliateContainer"></p>
+  </div>
+</dialog>
+
+<!-- ===== EMAIL MODAL ===== -->
+<dialog id="emailModal" aria-labelledby="emailTitle">
+  <div class="modal-card">
+    <button class="modal-close" data-close-modal aria-label="Close">×</button>
+    <h2 class="modal-title" id="emailTitle">Get notified when we ship WNBA mode</h2>
+    <p class="modal-sub">One email when it launches. No spam, ever.</p>
+    <form class="email-form" action="https://buttondown.email/api/emails/embed-subscribe/YOUR_HANDLE" method="post" target="_blank">
+      <input class="email-input" type="email" name="email" placeholder="your@email.com" required>
+      <button type="submit" class="btn btn-primary">Notify me</button>
+      <button type="button" class="btn btn-ghost" data-close-modal style="font-size:13px">No thanks</button>
+    </form>
+  </div>
+</dialog>
+
+<div id="toast-container" aria-live="polite" aria-atomic="false"></div>
+<div id="live-region" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+
+<footer class="site-footer">
+  <p><strong style="color:var(--text-muted)">Dunkdle</strong> — Unlimited NBA Player Guessing Game</p>
+  <p>Not affiliated with the NBA or the NBPA. Player data is for educational and entertainment purposes.</p>
+  <p style="margin-top:10px">
+    <a href="https://ko-fi.com/YOUR_HANDLE" target="_blank" rel="noopener">Support the site ☕</a>
+    &nbsp;·&nbsp;
+    <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+    &nbsp;·&nbsp;
+    <a href="/privacy">Privacy</a>
+  </p>
+  <p style="font-size:11px;margin-top:8px;color:var(--text-dim)">As an Amazon Associate, Dunkdle earns from qualifying purchases.</p>
+</footer>
+
+<script>
+/* =====================================================================
+   PLAYER DATA — hardcoded fallback (~30 active NBA players)
+   Verified April 2026. The schema matches the loader in playerData.js
+   ===================================================================== */
+const FALLBACK_RAW = [
+  {id:'lebron-james',nbaId:2544,name:'LeBron James',teamAbbrev:'LAL',position:'SF',height:"6'9",birthDate:'1984-12-30',jerseyNumber:23,draftYear:2003,draftPick:1,country:'USA',pastTeams:['CLE','MIA']},
+  {id:'jayson-tatum',nbaId:1628369,name:'Jayson Tatum',teamAbbrev:'BOS',position:'SF',height:"6'8",birthDate:'1998-03-03',jerseyNumber:0,draftYear:2017,draftPick:3,country:'USA',pastTeams:[]},
+  {id:'joel-embiid',nbaId:203954,name:'Joel Embiid',teamAbbrev:'PHI',position:'C',height:"7'0",birthDate:'1994-03-16',jerseyNumber:21,draftYear:2014,draftPick:3,country:'Cameroon',pastTeams:[]},
+  {id:'giannis-antetokounmpo',nbaId:203507,name:'Giannis Antetokounmpo',teamAbbrev:'MIL',position:'PF',height:"6'11",birthDate:'1994-12-06',jerseyNumber:34,draftYear:2013,draftPick:15,country:'Greece',pastTeams:[]},
+  {id:'donovan-mitchell',nbaId:1628378,name:'Donovan Mitchell',teamAbbrev:'CLE',position:'SG',height:"6'1",birthDate:'1996-09-07',jerseyNumber:45,draftYear:2017,draftPick:13,country:'USA',pastTeams:['UTA']},
+  {id:'trae-young',nbaId:1629027,name:'Trae Young',teamAbbrev:'ATL',position:'PG',height:"6'1",birthDate:'1998-09-19',jerseyNumber:11,draftYear:2018,draftPick:5,country:'USA',pastTeams:[]},
+  {id:'tyrese-haliburton',nbaId:1630169,name:'Tyrese Haliburton',teamAbbrev:'IND',position:'PG',height:"6'5",birthDate:'2000-02-29',jerseyNumber:0,draftYear:2020,draftPick:12,country:'USA',pastTeams:['SAC']},
+  {id:'pascal-siakam',nbaId:1627783,name:'Pascal Siakam',teamAbbrev:'IND',position:'PF',height:"6'8",birthDate:'1994-04-02',jerseyNumber:43,draftYear:2016,draftPick:27,country:'Cameroon',pastTeams:['TOR']},
+  {id:'paolo-banchero',nbaId:1631094,name:'Paolo Banchero',teamAbbrev:'ORL',position:'PF',height:"6'10",birthDate:'2002-11-12',jerseyNumber:5,draftYear:2022,draftPick:1,country:'USA',pastTeams:[]},
+  {id:'cade-cunningham',nbaId:1630595,name:'Cade Cunningham',teamAbbrev:'DET',position:'PG',height:"6'6",birthDate:'2001-09-25',jerseyNumber:2,draftYear:2021,draftPick:1,country:'USA',pastTeams:[]},
+  {id:'scottie-barnes',nbaId:1630567,name:'Scottie Barnes',teamAbbrev:'TOR',position:'SF',height:"6'7",birthDate:'2001-08-01',jerseyNumber:4,draftYear:2021,draftPick:4,country:'USA',pastTeams:[]},
+  {id:'bam-adebayo',nbaId:1628389,name:'Bam Adebayo',teamAbbrev:'MIA',position:'C',height:"6'9",birthDate:'1997-07-18',jerseyNumber:13,draftYear:2017,draftPick:14,country:'USA',pastTeams:[]},
+  {id:'jalen-brunson',nbaId:1628973,name:'Jalen Brunson',teamAbbrev:'NYK',position:'PG',height:"6'2",birthDate:'1996-08-31',jerseyNumber:11,draftYear:2018,draftPick:33,country:'USA',pastTeams:['DAL']},
+  {id:'karl-anthony-towns',nbaId:1626157,name:'Karl-Anthony Towns',teamAbbrev:'NYK',position:'C',height:"6'11",birthDate:'1995-11-15',jerseyNumber:32,draftYear:2015,draftPick:1,country:'USA',pastTeams:['MIN']},
+  {id:'jimmy-butler',nbaId:202710,name:'Jimmy Butler',teamAbbrev:'GSW',position:'SF',height:"6'7",birthDate:'1989-09-14',jerseyNumber:10,draftYear:2011,draftPick:30,country:'USA',pastTeams:['CHI','MIN','PHI','MIA']},
+  {id:'stephen-curry',nbaId:201939,name:'Stephen Curry',teamAbbrev:'GSW',position:'PG',height:"6'2",birthDate:'1988-03-14',jerseyNumber:30,draftYear:2009,draftPick:7,country:'USA',pastTeams:[]},
+  {id:'kevin-durant',nbaId:201142,name:'Kevin Durant',teamAbbrev:'HOU',position:'SF',height:"6'11",birthDate:'1988-09-29',jerseyNumber:7,draftYear:2007,draftPick:2,country:'USA',pastTeams:['OKC','GSW','BKN','PHX']},
+  {id:'luka-doncic',nbaId:1629029,name:'Luka Dončić',teamAbbrev:'LAL',position:'PG',height:"6'7",birthDate:'1999-02-28',jerseyNumber:77,draftYear:2018,draftPick:3,country:'Slovenia',pastTeams:['DAL']},
+  {id:'nikola-jokic',nbaId:203999,name:'Nikola Jokić',teamAbbrev:'DEN',position:'C',height:"6'11",birthDate:'1995-02-19',jerseyNumber:15,draftYear:2014,draftPick:41,country:'Serbia',pastTeams:[]},
+  {id:'anthony-davis',nbaId:203076,name:'Anthony Davis',teamAbbrev:'DAL',position:'PF',height:"6'10",birthDate:'1993-03-11',jerseyNumber:3,draftYear:2012,draftPick:1,country:'USA',pastTeams:['NOP','LAL']},
+  {id:'devin-booker',nbaId:1626164,name:'Devin Booker',teamAbbrev:'PHX',position:'SG',height:"6'5",birthDate:'1996-10-30',jerseyNumber:1,draftYear:2015,draftPick:13,country:'USA',pastTeams:[]},
+  {id:'shai-gilgeous-alexander',nbaId:1628983,name:'Shai Gilgeous-Alexander',teamAbbrev:'OKC',position:'PG',height:"6'6",birthDate:'1998-07-12',jerseyNumber:2,draftYear:2018,draftPick:11,country:'Canada',pastTeams:['LAC']},
+  {id:'chet-holmgren',nbaId:1631096,name:'Chet Holmgren',teamAbbrev:'OKC',position:'C',height:"7'1",birthDate:'2002-05-01',jerseyNumber:7,draftYear:2022,draftPick:2,country:'USA',pastTeams:[]},
+  {id:'victor-wembanyama',nbaId:1641705,name:'Victor Wembanyama',teamAbbrev:'SAS',position:'C',height:"7'4",birthDate:'2004-01-04',jerseyNumber:1,draftYear:2023,draftPick:1,country:'France',pastTeams:[]},
+  {id:'de-aaron-fox',nbaId:1628368,name:"De'Aaron Fox",teamAbbrev:'SAS',position:'PG',height:"6'3",birthDate:'1997-12-20',jerseyNumber:4,draftYear:2017,draftPick:5,country:'USA',pastTeams:['SAC']},
+  {id:'domantas-sabonis',nbaId:1627734,name:'Domantas Sabonis',teamAbbrev:'SAC',position:'C',height:"6'11",birthDate:'1996-05-03',jerseyNumber:11,draftYear:2016,draftPick:11,country:'Lithuania',pastTeams:['OKC','IND']},
+  {id:'ja-morant',nbaId:1629630,name:'Ja Morant',teamAbbrev:'MEM',position:'PG',height:"6'2",birthDate:'1999-08-10',jerseyNumber:12,draftYear:2019,draftPick:2,country:'USA',pastTeams:[]},
+  {id:'zion-williamson',nbaId:1629627,name:'Zion Williamson',teamAbbrev:'NOP',position:'PF',height:"6'6",birthDate:'2000-07-06',jerseyNumber:1,draftYear:2019,draftPick:1,country:'USA',pastTeams:[]},
+  {id:'anthony-edwards',nbaId:1630162,name:'Anthony Edwards',teamAbbrev:'MIN',position:'SG',height:"6'4",birthDate:'2001-08-05',jerseyNumber:5,draftYear:2020,draftPick:1,country:'USA',pastTeams:[]},
+  {id:'lauri-markkanen',nbaId:1628374,name:'Lauri Markkanen',teamAbbrev:'UTA',position:'PF',height:"7'0",birthDate:'1997-05-22',jerseyNumber:23,draftYear:2017,draftPick:7,country:'Finland',pastTeams:['CHI','CLE']}
+];
+
+/* =====================================================================
+   REFERENCE DATA
+   ===================================================================== */
+const TEAM_CONFERENCE = {
+  ATL:'East',BOS:'East',BKN:'East',CHA:'East',CHI:'East',CLE:'East',DET:'East',IND:'East',
+  MIA:'East',MIL:'East',NYK:'East',ORL:'East',PHI:'East',TOR:'East',WAS:'East',
+  DAL:'West',DEN:'West',GSW:'West',HOU:'West',LAC:'West',LAL:'West',MEM:'West',MIN:'West',
+  NOP:'West',OKC:'West',PHX:'West',POR:'West',SAC:'West',SAS:'West',UTA:'West'
+};
+const TEAM_FULL_NAME = {
+  ATL:'Atlanta Hawks',BOS:'Boston Celtics',BKN:'Brooklyn Nets',CHA:'Charlotte Hornets',
+  CHI:'Chicago Bulls',CLE:'Cleveland Cavaliers',DAL:'Dallas Mavericks',DEN:'Denver Nuggets',
+  DET:'Detroit Pistons',GSW:'Golden State Warriors',HOU:'Houston Rockets',IND:'Indiana Pacers',
+  LAC:'LA Clippers',LAL:'Los Angeles Lakers',MEM:'Memphis Grizzlies',MIA:'Miami Heat',
+  MIL:'Milwaukee Bucks',MIN:'Minnesota Timberwolves',NOP:'New Orleans Pelicans',NYK:'New York Knicks',
+  OKC:'Oklahoma City Thunder',ORL:'Orlando Magic',PHI:'Philadelphia 76ers',PHX:'Phoenix Suns',
+  POR:'Portland Trail Blazers',SAC:'Sacramento Kings',SAS:'San Antonio Spurs',TOR:'Toronto Raptors',
+  UTA:'Utah Jazz',WAS:'Washington Wizards'
+};
+
+/* =====================================================================
+   UTILITIES
+   ===================================================================== */
+function parseHeightToInches(input) {
+  if (typeof input === 'number') return input;
+  if (!input) return null;
+  const m = String(input).replace(/["”]/g,'').trim().match(/^(\d+)\s*[-'`’]\s*(\d+(?:\.\d+)?)$/);
+  if (!m) return null;
+  return parseInt(m[1],10) * 12 + parseFloat(m[2]);
+}
+function inchesToFeet(inches) {
+  const f = Math.floor(inches/12), i = Math.round(inches - f*12);
+  return `${f}'${i}"`;
+}
+function computeAge(iso, asOf = new Date()) {
+  if (!iso) return null;
+  const b = new Date(iso); if (isNaN(b)) return null;
+  let a = asOf.getFullYear() - b.getFullYear();
+  const m = asOf.getMonth() - b.getMonth();
+  if (m < 0 || (m === 0 && asOf.getDate() < b.getDate())) a -= 1;
+  return a;
+}
+function normalisePosition(raw) {
+  if (!raw) return { position:'F', positions:['F'] };
+  let p = String(raw).toUpperCase().replace(/\s|-/g, m => m === '-' ? '/' : '');
+  if (!['PG','SG','SF','PF','C','G','F','G/F','F/G','F/C','C/F'].includes(p)) p = p.charAt(0);
+  const positions = p.split('/').flatMap(letter => {
+    if (letter === 'PG' || letter === 'SG') return [letter, 'G'];
+    if (letter === 'SF' || letter === 'PF') return [letter, 'F'];
+    return [letter];
+  });
+  return { position: p, positions: [...new Set(positions)] };
+}
+function nbaPhotoUrl(nbaId) {
+  return nbaId ? `https://cdn.nba.com/headshots/nba/latest/1040x760/${nbaId}.png` : null;
+}
+function normalisePlayer(raw) {
+  if (!raw || !raw.teamAbbrev || !TEAM_CONFERENCE[raw.teamAbbrev]) return null;
+  const heightInches = raw.heightInches || parseHeightToInches(raw.height);
+  if (heightInches == null) return null;
+  const age = raw.age ?? computeAge(raw.birthDate);
+  if (age == null) return null;
+  const { position, positions } = normalisePosition(raw.position);
+  return {
+    id: String(raw.id || raw.name.toLowerCase().replace(/\s+/g,'-')),
+    name: raw.name,
+    team: TEAM_FULL_NAME[raw.teamAbbrev] || raw.teamAbbrev,
+    teamAbbrev: raw.teamAbbrev,
+    conference: TEAM_CONFERENCE[raw.teamAbbrev],
+    position, positions,
+    heightInches,
+    age,
+    birthDate: raw.birthDate || null,
+    jerseyNumber: raw.jerseyNumber != null ? Number(raw.jerseyNumber) : null,
+    draftYear: raw.draftYear ?? null,
+    draftPick: raw.draftPick ?? null,
+    photoUrl: raw.photoUrl || nbaPhotoUrl(raw.nbaId),
+    country: raw.country || 'USA',
+    pastTeams: Array.isArray(raw.pastTeams) ? raw.pastTeams.filter(t => TEAM_CONFERENCE[t]) : []
+  };
+}
+function shuffle(arr) {
+  const out = arr.slice();
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i+1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+function normaliseAccents(s) {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+/* =====================================================================
+   PERSISTENT STORAGE
+   ===================================================================== */
+const LS = {
+  stats: 'dunkdle_stats_v1',
+  pool: 'dunkdle_pool_v1',
+  round: 'dunkdle_round_v1',
+  tutorial: 'dunkdle_tutorial_v1',
+  emailPrompted: 'dunkdle_email_prompted',
+  streakDonate: 'dunkdle_streak_donate',
+  anchorDismissed: 'dunkdle_anchor_dismissed'
+};
+function lsGet(k, fallback=null) {
+  try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : fallback; }
+  catch { return fallback; }
+}
+function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+function lsDel(k) { try { localStorage.removeItem(k); } catch {} }
+
+const DEFAULT_STATS = {
+  played: 0, won: 0,
+  currentStreak: 0, bestStreak: 0,
+  totalGuessesToWin: 0,
+  distribution: { 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, loss:0 }
+};
+
+/* =====================================================================
+   GAME STATE
+   ===================================================================== */
+const state = {
+  players: [],
+  pool: [],
+  answer: null,
+  guesses: [],
+  status: 'idle', // 'playing' | 'won' | 'lost'
+  stats: lsGet(LS.stats, DEFAULT_STATS),
+  highlightedIndex: -1,
+  filtered: [],
+  sessionGames: 0
+};
+
+const MAX_GUESSES = 8;
+const BLUR_LADDER = [24, 20, 16, 12, 8, 4, 0]; // 6 wrong guesses → fully revealed
+
+/* =====================================================================
+   COMPARISON ENGINE
+   Returns array of { state, value, arrow, icon } per column.
+   Columns: team, conference, position, height, age, jersey, draftYr, draftPick
+   ===================================================================== */
+function compareGuessToAnswer(g, a) {
+  const cells = [];
+
+  // 1. Team
+  cells.push((() => {
+    if (g.teamAbbrev === a.teamAbbrev) return state_('green', g.teamAbbrev);
+    if (a.pastTeams.includes(g.teamAbbrev)) return state_('yellow', g.teamAbbrev);
+    return state_('grey', g.teamAbbrev);
+  })());
+
+  // 2. Conference (binary)
+  cells.push(g.conference === a.conference
+    ? state_('green', g.conference === 'East' ? 'E' : 'W')
+    : state_('grey', g.conference === 'East' ? 'E' : 'W'));
+
+  // 3. Position
+  cells.push((() => {
+    if (g.position === a.position) return state_('green', g.position);
+    const overlap = g.positions.some(p => a.positions.includes(p));
+    return overlap
+      ? state_('yellow', g.position)
+      : state_('grey', g.position);
+  })());
+
+  // 4. Height
+  cells.push(numericCell(g.heightInches, a.heightInches, 2, inchesToFeet));
+
+  // 5. Age
+  cells.push(numericCell(g.age, a.age, 2, v => String(v)));
+
+  // 6. Jersey
+  cells.push(numericCell(
+    g.jerseyNumber, a.jerseyNumber, 2,
+    v => v == null ? '—' : String(v)
+  ));
+
+  // 7. Draft Year — special undrafted handling
+  cells.push((() => {
+    const gd = g.draftYear, ad = a.draftYear;
+    if (gd == null && ad == null) return state_('green', '—');
+    if (gd == null || ad == null) return state_('grey', gd == null ? '—' : String(gd));
+    if (gd === ad) return state_('green', String(gd));
+    const diff = ad - gd;
+    if (Math.abs(diff) <= 2) return state_('yellow', String(gd), diff > 0 ? '↑' : '↓');
+    return state_('grey', String(gd), diff > 0 ? '↑' : '↓');
+  })());
+
+  // 8. Draft Pick — special undrafted handling, ±3
+  cells.push((() => {
+    const gd = g.draftPick, ad = a.draftPick;
+    if (gd == null && ad == null) return state_('green', 'UDFA');
+    if (gd == null || ad == null) return state_('grey', gd == null ? 'UDFA' : `#${gd}`);
+    if (gd === ad) return state_('green', `#${gd}`);
+    const diff = ad - gd;
+    if (Math.abs(diff) <= 3) return state_('yellow', `#${gd}`, diff > 0 ? '↑' : '↓');
+    return state_('grey', `#${gd}`, diff > 0 ? '↑' : '↓');
+  })());
+
+  return cells;
+}
+
+function state_(st, value, arrow=null) {
+  const icon = st === 'green' ? 'check' : st === 'yellow' ? 'partial' : 'close';
+  return { state: st, value, arrow, icon };
+}
+
+function numericCell(g, a, tolerance, fmt) {
+  if (g == null && a == null) return state_('green', '—');
+  if (g == null || a == null) return state_('grey', g == null ? '—' : fmt(g));
+  if (g === a) return state_('green', fmt(g));
+  const diff = a - g;
+  const arrow = diff > 0 ? '↑' : '↓';
+  if (Math.abs(diff) <= tolerance) return state_('yellow', fmt(g), arrow);
+  return state_('grey', fmt(g), arrow);
+}
+
+/* =====================================================================
+   DATA LOAD — try static JSON, fall back to hardcoded set
+   ===================================================================== */
+async function loadPlayerData() {
+  const cached = lsGet('dunkdle_players_cache_v1');
+  if (cached && Date.now() - cached.cachedAt < 24*60*60*1000 && Array.isArray(cached.players)) {
+    return reAgePlayers(cached.players);
+  }
+  try {
+    const res = await fetch('data/active-players.json', { cache: 'no-cache' });
+    if (res.ok) {
+      const json = await res.json();
+      const raw = Array.isArray(json) ? json : json.players;
+      const out = raw.map(normalisePlayer).filter(Boolean);
+      if (out.length) {
+        lsSet('dunkdle_players_cache_v1', { cachedAt: Date.now(), players: out });
+        return out;
+      }
+    }
+  } catch {}
+  if (cached && Array.isArray(cached.players) && cached.players.length) {
+    return reAgePlayers(cached.players);
+  }
+  return FALLBACK_RAW.map(normalisePlayer).filter(Boolean);
+}
+function reAgePlayers(players) {
+  const today = new Date();
+  return players.map(p => p.birthDate ? { ...p, age: computeAge(p.birthDate, today) } : p);
+}
+
+/* =====================================================================
+   ROUND POOL — no-repeat random selection
+   ===================================================================== */
+function buildPool(players) {
+  return shuffle(players.map(p => p.id));
+}
+function pickNextAnswer() {
+  if (!state.pool.length) {
+    state.pool = buildPool(state.players);
+    showToast('Pool reshuffled — every player available again.', 'info');
+  }
+  const id = state.pool.pop();
+  lsSet(LS.pool, state.pool);
+  return state.players.find(p => p.id === id) || state.players[0];
+}
+
+/* =====================================================================
+   GAME LIFECYCLE
+   ===================================================================== */
+function startNewRound() {
+  state.answer = pickNextAnswer();
+  state.guesses = [];
+  state.status = 'playing';
+  state.highlightedIndex = -1;
+  lsSet(LS.round, { answerId: state.answer.id, guessIds: [] });
+  renderSilhouette();
+  renderProgress();
+  renderBoard();
+  renderEmptyRows();
+  resetInput();
+  document.getElementById('guessInput').disabled = false;
+  document.getElementById('guessInput').focus();
+  document.getElementById('silhouette').classList.remove('revealed');
+  document.getElementById('silhouetteTitle').textContent = 'Guess the player';
+  document.getElementById('silhouetteSub').textContent = 'Image sharpens with every wrong guess.';
+  announce(`New round started. Guess the mystery player. ${MAX_GUESSES} guesses available.`);
+}
+
+function submitGuess(player) {
+  if (state.status !== 'playing') return;
+  if (state.guesses.find(g => g.id === player.id)) return;
+
+  state.guesses.push(player);
+  const wasWin = player.id === state.answer.id;
+  const guessCount = state.guesses.length;
+
+  // Persist
+  lsSet(LS.round, { answerId: state.answer.id, guessIds: state.guesses.map(p => p.id) });
+
+  renderBoard();
+  renderProgress();
+  updateSilhouetteBlur();
+
+  resetInput();
+
+  if (wasWin) {
+    state.status = 'won';
+    handleRoundEnd(true);
+  } else if (guessCount >= MAX_GUESSES) {
+    state.status = 'lost';
+    handleRoundEnd(false);
+  } else {
+    announce(`Guess ${guessCount}. ${describeRow(player)}`);
+  }
+}
+
+function handleRoundEnd(won) {
+  const guessCount = state.guesses.length;
+  // Update stats
+  state.stats.played += 1;
+  if (won) {
+    state.stats.won += 1;
+    state.stats.currentStreak += 1;
+    state.stats.bestStreak = Math.max(state.stats.bestStreak, state.stats.currentStreak);
+    state.stats.totalGuessesToWin += guessCount;
+    state.stats.distribution[guessCount] = (state.stats.distribution[guessCount] || 0) + 1;
+  } else {
+    state.stats.currentStreak = 0;
+    state.stats.distribution.loss = (state.stats.distribution.loss || 0) + 1;
+  }
+  lsSet(LS.stats, state.stats);
+
+  // Reveal silhouette
+  document.getElementById('silhouette').classList.add('revealed');
+  document.getElementById('silhouetteImg').style.setProperty('--blur', '0px');
+
+  document.getElementById('guessInput').disabled = true;
+  document.getElementById('guessSubmit').disabled = true;
+
+  // Session counter (for email prompt)
+  state.sessionGames += 1;
+  sessionStorage.setItem('dunkdle_games_session', String(state.sessionGames));
+
+  if (won) {
+    showToast(`Solved in ${guessCount}! 🏀`, 'win');
+    fireConfetti();
+    maybeStreakDonate();
+  } else {
+    showToast(`Out of guesses. The answer was ${state.answer.name}.`, 'loss');
+  }
+
+  setTimeout(() => openRevealModal(won), 700);
+  setTimeout(() => maybeShowEmailModal(), 1800);
+  lsDel(LS.round);
+}
+
+function resumeRoundIfAny() {
+  const saved = lsGet(LS.round);
+  if (!saved) return false;
+  const answer = state.players.find(p => p.id === saved.answerId);
+  if (!answer) return false;
+  state.answer = answer;
+  state.guesses = (saved.guessIds || [])
+    .map(id => state.players.find(p => p.id === id))
+    .filter(Boolean);
+  if (state.guesses.find(g => g.id === answer.id)) { state.status = 'won'; }
+  else if (state.guesses.length >= MAX_GUESSES) { state.status = 'lost'; }
+  else { state.status = 'playing'; }
+  return true;
+}
+
+function describeRow(player) {
+  const cells = compareGuessToAnswer(player, state.answer);
+  const labels = ['team','conference','position','height','age','jersey','draft year','draft pick'];
+  const greens = cells.map((c,i) => c.state === 'green' ? labels[i] : null).filter(Boolean);
+  const yellows = cells.map((c,i) => c.state === 'yellow' ? labels[i] : null).filter(Boolean);
+  let msg = `${player.name}. `;
+  if (greens.length) msg += `Matches: ${greens.join(', ')}. `;
+  if (yellows.length) msg += `Close on: ${yellows.join(', ')}. `;
+  if (!greens.length && !yellows.length) msg += 'No matches.';
+  return msg;
+}
+
+/* =====================================================================
+   RENDERING — BOARD
+   ===================================================================== */
+function renderBoard() {
+  const container = document.getElementById('guessRows');
+  container.innerHTML = '';
+  state.guesses.forEach((p, rowIdx) => {
+    const cells = compareGuessToAnswer(p, state.answer);
+    const row = document.createElement('div');
+    row.className = 'guess-row';
+    row.setAttribute('role', 'row');
+    row.setAttribute('aria-label', `Guess ${rowIdx+1}: ${p.name}`);
+    if (rowIdx === state.guesses.length - 1) row.classList.add('is-latest');
+    cells.forEach((c, ci) => {
+      const cell = document.createElement('div');
+      cell.className = 'cell';
+      cell.dataset.state = c.state;
+      cell.setAttribute('role', 'gridcell');
+      cell.style.setProperty('--delay', `${ci * 80}ms`);
+      cell.setAttribute('aria-label', cellAriaLabel(c, ci, p));
+      cell.innerHTML = `
+        <span class="cell-value">${escapeHtml(c.value)}</span>
+        ${c.arrow ? `<span class="cell-arrow" aria-hidden="true">${c.arrow}</span>` : ''}
+        <span class="cell-icon" data-icon="${c.icon}" aria-hidden="true"></span>
+      `;
+      row.appendChild(cell);
+    });
+    container.appendChild(row);
+  });
+  renderEmptyRows();
+}
+
+function renderEmptyRows() {
+  const container = document.getElementById('guessRows');
+  const remaining = MAX_GUESSES - state.guesses.length;
+  for (let i = 0; i < remaining; i++) {
+    const row = document.createElement('div');
+    row.className = 'empty-row guess-row';
+    row.setAttribute('aria-hidden', 'true');
+    for (let j = 0; j < 8; j++) {
+      const cell = document.createElement('div');
+      cell.className = 'cell empty';
+      row.appendChild(cell);
+    }
+    container.appendChild(row);
+  }
+}
+
+function cellAriaLabel(c, columnIdx, player) {
+  const cols = ['team','conference','position','height','age','jersey number','draft year','draft pick'];
+  const stateLabel = c.state === 'green' ? 'exact match'
+    : c.state === 'yellow' ? 'close match'
+    : 'no match';
+  const arrow = c.arrow === '↑' ? '. Answer is higher.' : c.arrow === '↓' ? '. Answer is lower.' : '';
+  return `${cols[columnIdx]}: ${c.value}, ${stateLabel}${arrow}`;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+}
+
+/* =====================================================================
+   RENDERING — SILHOUETTE
+   ===================================================================== */
+function renderSilhouette() {
+  const img = document.getElementById('silhouetteImg');
+  if (state.answer.photoUrl) {
+    img.src = state.answer.photoUrl;
+    img.alt = '';
+  } else {
+    img.removeAttribute('src');
+  }
+  img.style.setProperty('--blur', BLUR_LADDER[0] + 'px');
+}
+function updateSilhouetteBlur() {
+  const idx = Math.min(state.guesses.length, BLUR_LADDER.length - 1);
+  const img = document.getElementById('silhouetteImg');
+  img.style.setProperty('--blur', BLUR_LADDER[idx] + 'px');
+}
+function renderProgress() {
+  const pips = document.getElementById('progressTrack').children;
+  for (let i = 0; i < pips.length; i++) {
+    pips[i].className = 'progress-pip';
+    if (i < state.guesses.length) {
+      if (state.status === 'won' && i === state.guesses.length - 1) pips[i].classList.add('win');
+      else if (state.status === 'lost') pips[i].classList.add('loss');
+      else pips[i].classList.add('used');
+    }
+  }
+}
+
+/* =====================================================================
+   AUTOCOMPLETE
+   ===================================================================== */
+const input = document.getElementById('guessInput');
+const suggestions = document.getElementById('suggestions');
+const submitBtn = document.getElementById('guessSubmit');
+
+function updateSuggestions() {
+  const q = normaliseAccents(input.value.trim());
+  if (!q || q.length < 1) {
+    state.filtered = [];
+    suggestions.dataset.open = 'false';
+    input.setAttribute('aria-expanded', 'false');
+    submitBtn.disabled = true;
+    return;
+  }
+  const guessedIds = new Set(state.guesses.map(g => g.id));
+  state.filtered = state.players
+    .filter(p => normaliseAccents(p.name).includes(q))
+    .sort((a, b) => {
+      const an = normaliseAccents(a.name), bn = normaliseAccents(b.name);
+      const aStart = an.startsWith(q) ? 0 : 1;
+      const bStart = bn.startsWith(q) ? 0 : 1;
+      if (aStart !== bStart) return aStart - bStart;
+      return a.name.localeCompare(b.name);
+    })
+    .slice(0, 8);
+  state.highlightedIndex = state.filtered.length ? 0 : -1;
+  renderSuggestions(guessedIds);
+  submitBtn.disabled = !state.filtered[0] || guessedIds.has(state.filtered[0].id) || state.status !== 'playing';
+}
+
+function renderSuggestions(guessedIds) {
+  suggestions.innerHTML = '';
+  if (!state.filtered.length) {
+    suggestions.dataset.open = 'false';
+    input.setAttribute('aria-expanded', 'false');
+    return;
+  }
+  state.filtered.forEach((p, idx) => {
+    const li = document.createElement('li');
+    li.className = 'suggestion';
+    li.setAttribute('role', 'option');
+    li.id = `suggestion-${idx}`;
+    const disabled = guessedIds.has(p.id);
+    if (disabled) li.dataset.disabled = 'true';
+    if (idx === state.highlightedIndex) li.setAttribute('aria-selected', 'true');
+    li.innerHTML = `
+      <div class="suggestion-avatar">${p.photoUrl ? `<img src="${p.photoUrl}" alt="" loading="lazy">` : ''}</div>
+      <div class="suggestion-name">${escapeHtml(p.name)}</div>
+      <div class="suggestion-team">${p.teamAbbrev}</div>
+    `;
+    li.addEventListener('mousedown', (e) => {
+      e.preventDefault(); // keep focus on input
+      if (!disabled) selectSuggestion(idx);
+    });
+    li.addEventListener('mouseenter', () => {
+      state.highlightedIndex = idx;
+      [...suggestions.children].forEach((el, i) => el.setAttribute('aria-selected', i === idx ? 'true' : 'false'));
+    });
+    suggestions.appendChild(li);
+  });
+  suggestions.dataset.open = 'true';
+  input.setAttribute('aria-expanded', 'true');
+}
+
+function selectSuggestion(idx) {
+  const p = state.filtered[idx];
+  if (!p) return;
+  if (state.guesses.find(g => g.id === p.id)) {
+    showToast('Already guessed.', 'info');
+    return;
+  }
+  submitGuess(p);
+}
+
+function resetInput() {
+  input.value = '';
+  state.filtered = [];
+  state.highlightedIndex = -1;
+  suggestions.dataset.open = 'false';
+  input.setAttribute('aria-expanded', 'false');
+  submitBtn.disabled = true;
+}
+
+input.addEventListener('input', updateSuggestions);
+input.addEventListener('keydown', (e) => {
+  const open = suggestions.dataset.open === 'true';
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    if (!open) { updateSuggestions(); return; }
+    state.highlightedIndex = Math.min(state.highlightedIndex + 1, state.filtered.length - 1);
+    refreshHighlight();
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    if (!open) return;
+    state.highlightedIndex = Math.max(state.highlightedIndex - 1, 0);
+    refreshHighlight();
+  } else if (e.key === 'Escape') {
+    resetInput();
+  } else if (e.key === 'Enter') {
+    e.preventDefault();
+    if (state.highlightedIndex >= 0) selectSuggestion(state.highlightedIndex);
+  }
+});
+function refreshHighlight() {
+  [...suggestions.children].forEach((el, i) => {
+    el.setAttribute('aria-selected', i === state.highlightedIndex ? 'true' : 'false');
+    if (i === state.highlightedIndex) el.scrollIntoView({ block: 'nearest' });
+  });
+}
+
+document.getElementById('guessForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (state.highlightedIndex >= 0) selectSuggestion(state.highlightedIndex);
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.autocomplete')) {
+    suggestions.dataset.open = 'false';
+    input.setAttribute('aria-expanded', 'false');
+  }
+});
+
+/* =====================================================================
+   REVEAL MODAL
+   ===================================================================== */
+function openRevealModal(won) {
+  const modal = document.getElementById('revealModal');
+  const a = state.answer;
+  const outcome = document.getElementById('revealOutcome');
+  outcome.textContent = won ? `Solved in ${state.guesses.length}` : 'Out of guesses';
+  outcome.className = 'reveal-outcome ' + (won ? 'win' : 'loss');
+  document.getElementById('revealPhoto').src = a.photoUrl || '';
+  document.getElementById('revealPhoto').alt = a.name;
+  document.getElementById('revealName').textContent = a.name;
+  document.getElementById('revealTeam').textContent = `${a.team} · ${a.conference}`;
+
+  const stats = document.getElementById('revealStats');
+  stats.innerHTML = '';
+  const pairs = [
+    ['Position', a.position],
+    ['Height', inchesToFeet(a.heightInches)],
+    ['Age', a.age],
+    ['Jersey', a.jerseyNumber ?? '—'],
+    ['Draft', a.draftYear == null ? 'Undrafted' : `${a.draftYear} · Pick ${a.draftPick}`],
+    ['Country', a.country]
+  ];
+  pairs.forEach(([l, v]) => {
+    const div = document.createElement('div');
+    div.className = 'reveal-stat';
+    div.innerHTML = `<div class="reveal-stat-label">${l}</div><div class="reveal-stat-value">${escapeHtml(String(v))}</div>`;
+    stats.appendChild(div);
+  });
+
+  // Amazon affiliate
+  document.getElementById('affiliateContainer').innerHTML =
+    `<a href="${amazonSearchUrl(a.name)}" target="_blank" rel="sponsored noopener">Shop ${escapeHtml(a.name)} gear on Amazon →</a>
+     <br><span style="font-size:10px;color:var(--text-dim)">Affiliate link · As an Amazon Associate Dunkdle earns from qualifying purchases.</span>`;
+
+  modal.showModal();
+}
+
+function amazonSearchUrl(name) {
+  const tld = detectAmazonTld();
+  const tag = AMAZON_TAGS[tld] || AMAZON_TAGS['com'];
+  return `https://www.amazon.${tld}/s?k=${encodeURIComponent(name + ' jersey')}&tag=${tag}`;
+}
+const AMAZON_TAGS = { 'com': 'dunkdle-20', 'co.uk': 'dunkdle-21', 'com.au': 'dunkdle-22', 'ca': 'dunkdle-20' };
+function detectAmazonTld() {
+  const lang = (navigator.language || 'en-US').toLowerCase();
+  if (lang.endsWith('-gb')) return 'co.uk';
+  if (lang.endsWith('-au')) return 'com.au';
+  if (lang.endsWith('-ca')) return 'ca';
+  return 'com';
+}
+
+document.getElementById('newRoundBtn').addEventListener('click', () => {
+  document.getElementById('revealModal').close();
+  startNewRound();
+});
+
+/* =====================================================================
+   SHARE
+   ===================================================================== */
+const STATE_EMOJI = { green: '🟩', yellow: '🟨', grey: '⬜' };
+function buildShareText() {
+  const result = state.status === 'won' ? `${state.guesses.length}/${MAX_GUESSES}` : `X/${MAX_GUESSES}`;
+  const grid = state.guesses.map(p =>
+    compareGuessToAnswer(p, state.answer).map(c => STATE_EMOJI[c.state]).join('')
+  ).join('\n');
+  return `Dunkdle ${result} 🏀\n\n${grid}\n\nhttps://www.dunkdle.com`;
+}
+
+document.getElementById('shareBtn').addEventListener('click', async () => {
+  const text = buildShareText();
+  try {
+    if (navigator.share) {
+      await navigator.share({ text, url: 'https://www.dunkdle.com' });
+      return;
+    }
+  } catch (err) { /* fall through to clipboard */ }
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast('Result copied to clipboard.', 'info');
+  } catch {
+    showToast('Could not copy. Long-press the result modal text to copy manually.', 'info');
+  }
+});
+
+/* =====================================================================
+   STATS MODAL
+   ===================================================================== */
+document.getElementById('statsBtn').addEventListener('click', () => {
+  renderStats();
+  document.getElementById('statsModal').showModal();
+});
+function renderStats() {
+  const s = state.stats;
+  document.getElementById('stat-played').textContent = s.played;
+  document.getElementById('stat-winrate').textContent = s.played ? Math.round((s.won / s.played) * 100) + '%' : '0%';
+  document.getElementById('stat-streak').textContent = s.currentStreak;
+  document.getElementById('stat-best').textContent = s.bestStreak;
+  document.getElementById('stat-avg').textContent = s.won ? (s.totalGuessesToWin / s.won).toFixed(2) : '—';
+
+  const dist = s.distribution;
+  const max = Math.max(1, ...Object.values(dist));
+  const wrap = document.getElementById('distribution');
+  wrap.innerHTML = '';
+  for (let n = 1; n <= 8; n++) {
+    const v = dist[n] || 0;
+    const pct = (v / max) * 100;
+    const row = document.createElement('div');
+    row.className = 'dist-row';
+    row.innerHTML = `<div>${n}</div><div class="dist-bar"><div class="dist-fill win" style="width:${pct}%"></div></div><div>${v}</div>`;
+    wrap.appendChild(row);
+  }
+  const lossRow = document.createElement('div');
+  const lv = dist.loss || 0;
+  const lpct = (lv / max) * 100;
+  lossRow.className = 'dist-row';
+  lossRow.innerHTML = `<div>X</div><div class="dist-bar"><div class="dist-fill" style="width:${lpct}%"></div></div><div>${lv}</div>`;
+  wrap.appendChild(lossRow);
+}
+
+/* =====================================================================
+   HOW-TO MODAL
+   ===================================================================== */
+document.getElementById('howToBtn').addEventListener('click', () => {
+  document.getElementById('howToModal').showModal();
+});
+
+/* =====================================================================
+   MODAL CLOSE BUTTONS
+   ===================================================================== */
+document.querySelectorAll('[data-close-modal]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const dlg = btn.closest('dialog');
+    if (dlg) dlg.close();
+  });
+});
+// Click outside to close
+document.querySelectorAll('dialog').forEach(dlg => {
+  dlg.addEventListener('click', (e) => {
+    if (e.target === dlg) dlg.close();
+  });
+});
+
+/* =====================================================================
+   TOASTS
+   ===================================================================== */
+function showToast(message, type='info', actionHref=null, actionLabel=null, duration=4500) {
+  const container = document.getElementById('toast-container');
+  const toast = document.createElement('div');
+  toast.className = `toast ${type}`;
+  toast.setAttribute('role', 'status');
+  toast.innerHTML = `<span>${escapeHtml(message)}</span>${
+    actionHref ? `<a href="${actionHref}" target="_blank" rel="noopener">${escapeHtml(actionLabel||'Open')}</a>` : ''
+  }`;
+  container.appendChild(toast);
+  setTimeout(() => {
+    toast.classList.add('leaving');
+    setTimeout(() => toast.remove(), 250);
+  }, duration);
+}
+function announce(text) {
+  const r = document.getElementById('live-region');
+  r.textContent = '';
+  setTimeout(() => { r.textContent = text; }, 50);
+}
+
+/* =====================================================================
+   CONFETTI (light, performant)
+   ===================================================================== */
+function fireConfetti() {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const colors = ['#ff6b35','#f5b800','#14b870','#4a9eff','#e8ecf4'];
+  const wrap = document.createElement('div');
+  wrap.className = 'confetti';
+  wrap.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(wrap);
+  const count = 60;
+  for (let i = 0; i < count; i++) {
+    const piece = document.createElement('div');
+    piece.className = 'confetti-piece';
+    piece.style.left = (Math.random() * 100) + '%';
+    piece.style.background = colors[Math.floor(Math.random()*colors.length)];
+    piece.style.setProperty('--dx', (Math.random() * 200 - 100) + 'px');
+    piece.style.setProperty('--dur', (1.8 + Math.random() * 1.4) + 's');
+    piece.style.setProperty('--delay', (Math.random() * 0.4) + 's');
+    piece.style.transform = `rotate(${Math.random()*360}deg)`;
+    wrap.appendChild(piece);
+  }
+  setTimeout(() => wrap.remove(), 3500);
+}
+
+/* =====================================================================
+   STREAK DONATE / EMAIL PROMPTS
+   ===================================================================== */
+function maybeStreakDonate() {
+  if (state.stats.currentStreak < 5) return;
+  if (lsGet(LS.streakDonate)) return;
+  lsSet(LS.streakDonate, 1);
+  setTimeout(() => {
+    showToast(`${state.stats.currentStreak}-win streak — nice!`, 'info', 'https://ko-fi.com/YOUR_HANDLE', 'Support ☕', 7000);
+  }, 1200);
+}
+function maybeShowEmailModal() {
+  if (lsGet(LS.emailPrompted)) return;
+  const sessionCount = Number(sessionStorage.getItem('dunkdle_games_session') || 0);
+  if (sessionCount < 3) return;
+  lsSet(LS.emailPrompted, 1);
+  document.getElementById('emailModal').showModal();
+}
+
+/* =====================================================================
+   AD ANCHOR DISMISS
+   ===================================================================== */
+const anchor = document.getElementById('adAnchor');
+if (lsGet(LS.anchorDismissed)) {
+  anchor.classList.add('dismissed');
+} else {
+  document.body.classList.add('with-anchor-ad');
+}
+document.getElementById('adAnchorClose').addEventListener('click', () => {
+  anchor.classList.add('dismissed');
+  document.body.classList.remove('with-anchor-ad');
+  lsSet(LS.anchorDismissed, 1);
+});
+
+/* =====================================================================
+   ADSENSE PUSH (defer to load to avoid layout shift)
+   ===================================================================== */
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    try {
+      document.querySelectorAll('ins.adsbygoogle').forEach(() => {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      });
+    } catch {}
+  }, 500);
+});
+
+/* =====================================================================
+   FIRST-VISIT TUTORIAL
+   ===================================================================== */
+function maybeShowTutorial() {
+  if (!lsGet(LS.tutorial)) {
+    document.getElementById('howToModal').showModal();
+    lsSet(LS.tutorial, 1);
+  }
+}
+
+/* =====================================================================
+   BOOT
+   ===================================================================== */
+async function boot() {
+  // Load player data
+  state.players = await loadPlayerData();
+  if (!state.players.length) {
+    showToast('Could not load player data.', 'loss');
+    return;
+  }
+
+  // Restore or build pool
+  const savedPool = lsGet(LS.pool);
+  if (Array.isArray(savedPool) && savedPool.length) {
+    // Filter to ids that still exist (roster changes)
+    state.pool = savedPool.filter(id => state.players.find(p => p.id === id));
+    if (!state.pool.length) state.pool = buildPool(state.players);
+  } else {
+    state.pool = buildPool(state.players);
+  }
+
+  // Resume in-progress round or start new
+  if (!resumeRoundIfAny()) {
+    state.answer = pickNextAnswer();
+    state.status = 'playing';
+  }
+
+  // Initial render
+  renderSilhouette();
+  updateSilhouetteBlur();
+  renderProgress();
+  renderBoard();
+  if (state.status !== 'playing') {
+    document.getElementById('guessInput').disabled = true;
+    document.getElementById('silhouette').classList.add('revealed');
+  }
+
+  maybeShowTutorial();
+}
+
+boot();
+</script>
+</body>
+</html>
